@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+main {
+  margin: 50px auto;
+  max-width: 80%;
+  height: 100%;
+}
+
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+}
+
+select > option {
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+footer {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#loading,
+#error,
+#success {
+  margin-top: 20px;
+}
+
+#error {
+  color: red;
+}
+
+#success {
+  color: green;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
+}
