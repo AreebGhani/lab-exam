@@ -1,7 +1,7 @@
 {
-  "name": "sp22-bcs-016",
+  "name": "express-ejs",
   "version": "1.0.1",
-  "description": "sp22-bcs-016",
+  "description": "express-ejs",
   "main": "app.js",
   "type": "module",
   "scripts": {
